@@ -6,5 +6,5 @@ def div(a: float, b: float) -> float | str:
 def pow(a: float, b: float) -> float:
     return a ** b
 
-def summ(a, b):
+def summ(a: float, b: float) -> float:
     return a + b
