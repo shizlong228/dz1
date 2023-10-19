@@ -8,3 +8,6 @@ def pow(a: float, b: float) -> float:
 
 def summ(a: float, b: float) -> float:
     return a + b
+
+def minuse(a: float, b: float) -> float:
+    return a - b
