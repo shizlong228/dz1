@@ -22,3 +22,6 @@ def fact(a: int) -> int:
     for i in range(2, a + 1):
         r *= i
     return r
+
+def is_equal(a, b):
+    return a == b
