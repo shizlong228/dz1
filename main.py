@@ -11,3 +11,6 @@ def summ(a: float, b: float) -> float:
 
 def minuse(a: float, b: float) -> float:
     return a - b
+
+def sqrt(a: float):
+    return a ** 0.5
