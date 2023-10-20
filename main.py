@@ -15,3 +15,9 @@ def minuse(a: float, b: float) -> float:
 def sqrt(a: float) -> float:
     """Возвращает корень числа a"""
     return a ** 0.5
+
+def fact(a: int) -> int:
+    r = 1
+    for i in range(2, a + 1):
+        r *= i
+    return r
