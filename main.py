@@ -17,7 +17,11 @@ def sqrt(a: float) -> float:
     return a ** 0.5
 
 def fact(a: int) -> int:
+    """Вычисляет факториал"""
     r = 1
     for i in range(2, a + 1):
         r *= i
     return r
+
+def is_equal(a: float, b: float) -> bool:
+    return a == b
