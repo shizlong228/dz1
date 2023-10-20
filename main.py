@@ -23,5 +23,5 @@ def fact(a: int) -> int:
         r *= i
     return r
 
-def is_equal(a, b):
+def is_equal(a: float, b: float) -> bool:
     return a == b
