@@ -12,5 +12,6 @@ def summ(a: float, b: float) -> float:
 def minuse(a: float, b: float) -> float:
     return a - b
 
-def sqrt(a: float):
+def sqrt(a: float) -> float:
+    """Возвращает корень числа a"""
     return a ** 0.5
