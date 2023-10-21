@@ -24,4 +24,4 @@ def fact(a: int) -> int:
     return r
 
 def is_equal(a: float, b: float) -> bool:
-    return a == b
+    return not(a != b)
