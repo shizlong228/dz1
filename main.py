@@ -25,3 +25,4 @@ def fact(a: int) -> int:
 
 def is_equal(a: float, b: float) -> bool:
     return not(a != b)
+
